@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin:0px 14px;
+    font-size: 1.4rem;
+    
+}
+#logo img{
+    height: 36px;
+     margin-right: 2px;
+}
+
+
+#navbar{
+    background-color: red;
+    padding: 14px 13px;
+    font-family: 'Lacquer';
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center; */   
+
+}
+#navbar li{
+    font-size: 1.4rem;
+    list-style: none;
+
+}
+#navbar li a {
+    color: white;
+   text-decoration: none;
+  padding: 15px 23px;
+  font-weight: bold;
+}
+
+#navbar li a:hover{
+    color:black;
+}
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lacquer';
+    font-size: 2.8rem;
+    font-weight: bold;
+    align-items: center;
+    background: center/cover no-repeat url("/static/img/bg.jpg") ; 
+  height: 337px;
+  background-color: red;
+
+}
+#introSection div.first{
+    font-size: 53px;
+    
+}
+#introSection div.small{
+    font-size: 53px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+
+#missionSection{
+    height: 334px;
+    background-color:white;
+}
+#missionSection h2{
+    padding-top:12px;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-family: 'Lacquer';
+    text-align: center;
+    }
+.card{
+    border:2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 26px 22px;
+    height: 234px;
+    display: inline-block;
+    background-color: #fbfbfb;
+    }
+ .card h2{
+     align-items: center;
+     padding: 23px 92px;
+     font-size: 1.8rem;
+     font-family: 'Lacquer';
+     text-decoration: underline;
+ }   
+ .card-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .card-img img{
+     height: 100px;
+     padding: 0px 14px;
+     margin: 5px 9px;
+ }
+ .card-content{
+     padding: 0px 1px;
+ }
+ .card-content p{
+    font-weight: bold;
+    font-family: 'Lacquer';
+    font-size: 14px;
+    margin-top: -16px;
+ }
+#sponsorsSection{
+    height: 340px;
+    background-color:rgb(236, 232, 232);
+}
+#sponsorsSection h2{
+padding-top:12px;
+font-size: 1.8rem;
+text-decoration: underline;
+font-family: 'Lacquer';
+text-align: center;
+}
+#sponsors{
+    height: 176px;
+    max-width: 1319px;
+    margin: 32px auto
+}
+.spImage{
+    border: 2px solid black;
+    height: 80%;
+    margin: 33px;
+
+}
+
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    background-color:black;
+    font-size: 15px;
+}

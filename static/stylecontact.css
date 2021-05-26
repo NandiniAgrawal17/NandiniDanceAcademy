@@ -1,0 +1,73 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+
+}
+
+
+ h1{
+    text-align: center;
+    font-family: 'Lacquer';
+    text-decoration: underline;
+    font-size:56px;
+    margin-top: 12xp;
+    color: white;
+    margin-top: -43px;
+    
+   
+}
+.container{
+    background:url("/static/back.jpg") ; 
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+     min-height: 80vh;
+    margin: 43px 0;
+    margin-bottom: -16px;
+    
+}
+.container p{
+    font-weight: bold;
+    text-align: center;
+    margin-left: -222px;
+   color: white;
+   
+
+}
+
+.myForm{
+  display: block;
+text-align: center;
+   width: 1103px;
+  padding: 1px;
+   margin: 16px auto;
+  font-size: 20px;
+  font-family: 'Lacquer';
+}
+.myInput{
+    
+   width: 50%;
+    padding:16px;
+    margin: 20px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 12px;
+
+}
+
+.btn{
+    border-radius: 19px;
+    padding: 5px 28px;
+    font-size: 18px;
+    border:2px solid black;
+    color: white;
+    font-family: 'Lacquer';
+    cursor: pointer;
+    margin-bottom: 12px;
+    background-color: red;
+    font-weight: bold;
+}
